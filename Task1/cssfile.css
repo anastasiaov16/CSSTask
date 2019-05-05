@@ -1,0 +1,45 @@
+.parent{
+width: 346px;
+position: relative;
+margin: 0;
+}
+
+.line{
+  width:100%;
+  height:8px;
+  background: rgba(125, 126, 124, 0.699);
+  position: absolute;
+  top:45%;
+}
+
+
+.round { 
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(161, 216, 79);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  color: aliceblue;
+  position: relative;
+  line-height: 1.5em;
+}
+
+
+.round-first{
+  margin-left: 0;
+}
+
+.round-penultimate{
+  background: rgba(204, 77, 204);
+}
+.round-last{
+  background: rgba(125, 126, 124);
+  margin-right: 0;
+  color:black;
+}
