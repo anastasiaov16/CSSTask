@@ -1,0 +1,19 @@
+.parent{
+position: relative;
+    width: 200px;
+    height: 20px;
+    margin: 0;
+
+}
+.square{
+position: relative;
+height: 100%;
+width: 20px;
+box-shadow: 0 0 3px #666;
+text-align: center;
+display: inline-block;
+background: linear-gradient(to top, rgb(221, 220, 220), white);
+border-radius: 3px;
+margin: 5px;
+
+}

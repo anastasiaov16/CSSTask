@@ -1,0 +1,16 @@
+.ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(217, 231, 214);
+  border: 0.8em solid rgb(132, 196, 132);
+  border-right-color: rgb(197, 236, 189);
+  text-align: center;
+  line-height: 100px;
+  font-size:2em;
+  }
+  .ring span{
+    font-size:0.6em;
+  }
+
+  

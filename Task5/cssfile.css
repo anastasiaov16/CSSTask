@@ -1,0 +1,48 @@
+
+table{
+/*border: solid black;*/
+overflow: hidden;
+}
+td{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  margin:0;
+}
+td::before{
+  content: "";
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: rgb(82, 71, 224);
+  margin: 25px;
+  display: inline-block;
+}
+
+td:hover{
+  background: rgb(250, 182, 57);
+}
+
+td:hover::before{
+  content: "";
+  background: black;
+}
+
+tr:hover{
+  content: "";
+  background: rgb(250, 200, 108);
+}
+
+td:hover::after{
+  content: "";
+  position: absolute;
+  background: rgb(250, 200, 108);
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
+

@@ -1,0 +1,84 @@
+.sliders{
+position: relative;
+width: 600px;
+height: 400px;
+
+}
+
+.sliders .fone {
+    width: 100%;
+    height: 100%;
+    background: url(http://htmlbook.ru/files/river.jpg) no-repeat 100% 100%;
+  }
+
+  
+  .sliders input[value='p1']:checked~.fone {
+    background: url(https://espanarusa.com/files/autoupload/62/16/17/2tzs30a4408916.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .sliders input[value='p2']:checked~.fone {
+    background: url(https://bigpicture.ru/wp-content/uploads/2014/12/cascadewaterfalls01-800x500.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+  .sliders input[value='p3']:checked~.fone {
+    background: url(https://ptzgovorit.ru/sites/default/files/styles/700x400/public/original_nodes/vodopad_belye_mosty_kaskad.jpg?itok=xDz6ooK9) no-repeat;
+    background-size: 100% 100%;
+  }
+  .sliders input[value='p4']:checked~.fone {
+    background: url(https://v-thailand.com/wp-content/uploads/2014/05/Vodopadyi-na-Phukete.jpeg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .sliders input[type='radio'] {
+    display: none;
+  }
+
+  .sliders input[value='river']:checked~label[for='river'], 
+  .sliders input[value='p1']:checked~label[for='p1'], 
+  .sliders input[value='p2']:checked~label[for='p2'], 
+  .sliders input[value='p3']:checked~label[for='p3'], 
+  .sliders input[value='p4']:checked~label[for='p4'] {
+    display: none;
+  }
+  
+  .sliders>label, .sliders input:checked~.fone::after {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 90%;
+    left: 40%;
+  }
+  
+.sliders>label {
+    background: black;
+    box-shadow: 0 0 0 1px white;
+  }
+  
+  .sliders input:checked~.fone::after {
+    content: '';
+    background: red;
+  }
+  
+  label[for='river'], .sliders input[value='river']:checked~.fone {
+    left: 40%;
+  }
+  
+  label[for='p1'], .sliders input[value='p1']:checked~.fone {
+    left: 45%;
+  }
+  
+  label[for='p2'], .sliders input[value='p2']:checked~.fone {
+    left: 50%;
+  }
+  
+  label[for='p3'], .sliders input[value='p3']:checked~.fone {
+    left: 55%;
+  }
+  
+  label[for='p4'], .sliders input[value='p4']:checked~.fone {
+    left: 60%;
+  }
+  

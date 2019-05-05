@@ -1,0 +1,22 @@
+.parent{
+    background: linear-gradient(to top,rgb(112, 153, 112), rgb(208, 245, 194));
+    position: relative;
+    width: 90%;
+    height: 50px;
+    border-radius: 0 50px 50px 0;
+    margin: 0 5%;
+  }
+
+  .block{
+    position: relative;
+    height: 100%;
+    border-radius: 0 50px 50px 0;
+    width: 10%;
+    box-shadow: 3px 0 0 0 grey;
+    display: inline-block;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: white;
+    text-align: center;
+    line-height: 2.5em;
+  }
